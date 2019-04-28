@@ -1,0 +1,78 @@
+body {
+    overflow: hidden;
+   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+   /* background-image: url(../images/nice_snow_@2X.png); */
+}
+#profile-photo {
+
+    height: 240px;
+   
+}
+
+#main-outer {
+
+    background-image: url(../images/nice_snow_@2X.png);
+    padding-bottom: 250px !important;
+    padding-top: 100px;
+
+}
+#name {
+
+    font-size: 35px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    /* margin: 0px; */
+    padding-right: 20px;
+    overflow: visible;
+}
+
+#main-section  {
+
+    border: 1px solid #dddddd;
+    height: 500px;
+    overflow-y: scroll;
+    background-color: white;
+    
+}
+
+footer {
+    border-top: 8px solid #4aaaa5;
+    background-color: #666666;
+}
+
+.paragraph {
+
+    padding: 10px;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    line-height: 200%;
+    margin-inline-start: 1em;
+    margin-inline-end: 1em;
+    text-align: justify;
+    color: #777777;
+
+}
+
+h1 {
+    color: #4aaaa5;
+}
+
+
+/* 
+@media only screen and (max-width: 767px) {
+	
+	table { margin-bottom: 0; }
+	
+	.pinned { position: absolute; left: 0; top: 0; background: #fff; width: 35%; overflow: hidden; overflow-x: scroll; border-right: 1px solid #ccc; border-left: 1px solid #ccc; }
+	.pinned table { border-right: none; border-left: none; width: 100%; }
+	.pinned table th, .pinned table td { white-space: nowrap; }
+	.pinned td:last-child { border-bottom: 0; }
+	
+	div.table-wrapper { position: relative; margin-bottom: 20px; overflow: hidden; border-right: 1px solid #ccc; }
+	div.table-wrapper div.scrollable table { margin-left: 35%; }
+	div.table-wrapper div.scrollable { overflow: scroll; overflow-y: hidden; }	
+	
+	table td, table th { position: relative; white-space: nowrap; overflow: hidden; }
+	table th:first-child, table td:first-child, table td:first-child, table.pinned td { display: none; }
+	
+} */
